@@ -1,33 +1,33 @@
-## Step 6: Introduction to Collaboration
+## 단계 6: 협업 소개
 
-Nice work! You've mastered local Git operations and our game is now safe to experiment developing new features! 🎉
+잘하셨습니다! 로컬 Git 작업을 마스터했고, 이제 게임에 새로운 기능을 안전하게 실험하며 개발할 수 있습니다! 🎉
 
-But.. the really fun development happens in teams, not alone. That is another exercise, but let's start exploring the topic.
+하지만.. 정말 재미있는 개발은 혼자가 아닌 팀에서 이루어집니다. 이것은 다른 실습의 주제이지만, 먼저 이 주제를 탐색해 봅시다.
 
-### 📖 Theory: Git Collaboration Concepts
+### 📖 이론: Git 협업 개념
 
-Since branches provide powerful parallelism to work on different features independently, a natural extension is to enable multiple people to work in parallel.
+브랜치가 다른 기능을 독립적으로 작업할 수 있는 강력한 병렬성을 제공하기 때문에, 자연스러운 확장은 여러 사람이 병렬로 작업할 수 있게 하는 것입니다.
 
-At the beginning, we mentioned Git is a "distributed" version control system, this means it can share changes with other copies of the same repository!
+처음에 Git이 "분산" 버전 관리 시스템이라고 했는데, 이는 같은 저장소의 다른 복사본과 변경 사항을 공유할 수 있다는 의미입니다!
 
-### What does collaboration look like?
+### 협업은 어떤 모습인가요?
 
-Here is a typical workflow:
+일반적인 워크플로우는 다음과 같습니다:
 
-1. Copy a repository to your local machine (called **cloning**).
-1. Create branches and develop new features.
-1. Publish your changes to a remote repository, somewhere others can also access (called **pushing**).
-1. Other developers decide if they like your changes. If so, they merge them into their version of the project (called **pulling**).
-1. Additionally, you might proactively ask another developer to integrate your changes into their copy (called a **pull request**).
+1. 저장소를 로컬 머신에 복사합니다 (**클론(cloning)**이라고 합니다).
+1. 브랜치를 만들고 새 기능을 개발합니다.
+1. 다른 사람들도 접근할 수 있는 원격 저장소에 변경 사항을 게시합니다 (**푸시(pushing)**라고 합니다).
+1. 다른 개발자들이 여러분의 변경 사항이 마음에 드는지 결정합니다. 그렇다면 자신의 프로젝트 버전에 머지합니다 (**풀(pulling)**이라고 합니다).
+1. 추가로, 다른 개발자에게 여러분의 변경 사항을 그들의 복사본에 통합해 달라고 요청할 수도 있습니다 (**풀 리퀘스트(pull request)**라고 합니다).
 
-### ⌨️ Activity: Quick Review
+### ⌨️ 활동: 간단한 복습
 
-Answer one quick question for Mona, and she will share the final review! 🎉
+Mona에게 빠른 질문 하나에 답하면, 최종 리뷰를 공유해 줄 것입니다! 🎉
 
-**What is your favorite feature of Git?**
+**Git에서 가장 마음에 드는 기능은 무엇인가요?**
 
-- [ ] It's free and open source. 😍
-- [ ] I don't need internet to use it. 🛜
-- [ ] I can use it with any operating system. 🍎🪟🐧
-- [ ] The detailed history (if I write good messages). ✨
-- [ ] That I might never write `final_really.zip` ever again! 😎
+- [ ] 무료이고 오픈 소스입니다. 😍
+- [ ] 인터넷 없이도 사용할 수 있습니다. 🛜
+- [ ] 모든 운영 체제에서 사용할 수 있습니다. 🍎🪟🐧
+- [ ] 상세한 히스토리 (좋은 메시지를 작성한다면). ✨
+- [ ] `final_really.zip`을 다시는 쓰지 않아도 될 수도 있다는 점! 😎
