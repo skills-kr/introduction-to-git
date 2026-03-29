@@ -220,5 +220,3 @@ jobs:
               "track": "'"$TRACK"'",
               "runId": "'"$GITHUB_RUN_ID"'"
             }' || true
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
