@@ -198,6 +198,8 @@ jobs:
         run: |
           gh workflow disable "${{github.workflow}}"
           gh workflow enable "단계 3"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Workshop Tracker에 단계 보고
         if: success()
